@@ -39,8 +39,7 @@ export const Read = (myindex) => {
 
 
 export const Remove1 = (index) => {
-    studentDetails = studentDetails.filter(
-        (data, pos) => {
+    studentDetails = studentDetails.filter((data, pos) => {
             return pos !== index;
         }
     )
